@@ -63,7 +63,7 @@ func Hello(w http.ResponseWriter, r *http.Request) {
 
 // fetchGreetingFromDB mensimulasikan query DB
 func fetchGreetingFromDB() string {
-	return "Halo dari vianbas — take 17:20:10"
+	return "Selamat datang di layanan backend-go"
 }
 
 // callExternalVersionAPI mensimulasikan panggilan ke external HTTP API
